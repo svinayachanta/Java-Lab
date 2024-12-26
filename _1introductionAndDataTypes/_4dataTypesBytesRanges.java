@@ -1,6 +1,8 @@
+package _1introductionAndDataTypes;
+
 import java.lang.*;
 
-class 3-DataTypesBytesRanges
+class _4dataTypesBytesRanges
 {
     public static void main(String args[])
     {
@@ -8,8 +10,8 @@ class 3-DataTypesBytesRanges
         System.out.println("Int Max " + Integer.MAX_VALUE);
         System.out.println("Int Bytes " + Integer.BYTES);
 
-        System.out.println("Int Min " + Character.MIN_VALUE);
-        System.out.println("Int Max " + Character.MAX_VALUE);
-        System.out.println("Int Bytes " + Character.BYTES);
+        System.out.println("Character Min " + Float.MIN_VALUE);
+        System.out.println("Character Max " + Float.MAX_VALUE);
+        System.out.println("Character Bytes " + Float.BYTES);
     }
 }

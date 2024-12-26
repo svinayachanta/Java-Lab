@@ -1,6 +1,6 @@
-package operatorsExpressions;
+package _2operatorsAndExpressions;
 
-public class incrementDecrement 
+public class _2incrementDecrement 
 {
     public static void main(String[] args) {
         int x = 5;

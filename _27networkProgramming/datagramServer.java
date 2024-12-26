@@ -1,8 +1,8 @@
-package datagramclient;
+package _27networkProgramming;
 
 import java.net.*;
 
-public class 19-DatagramServer 
+public class datagramServer 
 {  
     public static void main(String[] args) throws Exception
     {
@@ -19,12 +19,8 @@ public class 19-DatagramServer
         msg=new String(dp.getData()).trim();
         System.out.println("From Server "+msg);
         
-        ds.close();
-        
-        
-        
+        ds.close();  
     }
-    
 }
 
 class Server 
@@ -46,9 +42,6 @@ class Server
          dp=new DatagramPacket(msg.getBytes(),msg.length(),InetAddress.getByName("localhost"),2001);
         
         ds.send(dp);
- 
         ds.close();
-    
     }
-    
 }

@@ -1,7 +1,9 @@
+package _1introductionAndDataTypes;
+
 import java.lang.*;
 import java.util.*;
 
-class 2-ScannerDemo
+class _2scannerDemo
 {
     public static void main(String args[])
     {

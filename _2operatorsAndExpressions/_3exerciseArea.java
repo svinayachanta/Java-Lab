@@ -1,8 +1,8 @@
-package operatorsExpressions;
+package _2operatorsAndExpressions;
 
 import java.util.Scanner;
 
-public class area 
+public class _3exerciseArea 
 {
     public static void main(String[] args) 
     {

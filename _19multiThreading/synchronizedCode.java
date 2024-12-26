@@ -1,4 +1,4 @@
-package multiThreading;
+package _19multiThreading;
 
 class Mydata {
     synchronized public void display(String str){

@@ -1,4 +1,4 @@
-package operatorsExpressions;
+package _2operatorsAndExpressions;
 
 public class bitwiseMerging {
     public static void main(String[] args) {

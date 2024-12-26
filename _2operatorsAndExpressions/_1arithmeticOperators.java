@@ -1,6 +1,6 @@
-package operatorsExpressions;
+package _2operatorsAndExpressions;
 
-public class operators 
+public class _1arithmeticOperators 
 {
     public static void main(String[] args) 
     {
@@ -10,5 +10,6 @@ public class operators
         System.out.println(a - b);
         System.out.println(a * b);
         System.out.println(a / b);
+        System.out.println(a % b);
     }
 }

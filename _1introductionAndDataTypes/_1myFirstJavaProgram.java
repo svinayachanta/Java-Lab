@@ -1,6 +1,6 @@
-import java.lang.*;
+package _1introductionAndDataTypes;
 
-class 1-MyFirst
+class _1myFirstJavaProgram
 {
     public static void main(String args[])
     {

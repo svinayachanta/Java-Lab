@@ -1,6 +1,6 @@
-package operatorsExpressions;
+package _2operatorsAndExpressions;
 
-public class bitwiseSwap {
+public class _5bitwiseSwap {
     public static void main(String[] args) {
         int a = 10, b = 20;
         a = a ^ b; // a XOR b
