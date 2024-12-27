@@ -3,10 +3,10 @@ package _27networkProgramming;
 import java.net.*;
 import java.io.*;
 
-public class multiThreadServer implements Runnable
+public class _1multiThreadServer implements Runnable
 {
     Socket client;
-    public multiThreadServer(Socket stk)
+    public _1multiThreadServer(Socket stk)
     {
         client=stk;
     }
@@ -21,7 +21,7 @@ public class multiThreadServer implements Runnable
         {
         stk=ss.accept();
         System.out.println("Client Connected");
-        multiThreadServer mt=new multiThreadServer(stk);
+        _1multiThreadServer mt=new _1multiThreadServer(stk);
         Thread t=new Thread(mt);
         t.start();
         }while(true);

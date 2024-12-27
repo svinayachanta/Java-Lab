@@ -2,7 +2,7 @@ package _27networkProgramming;
 
 import java.net.*;
 
-public class datagramServer 
+public class _2datagramServer 
 {  
     public static void main(String[] args) throws Exception
     {
